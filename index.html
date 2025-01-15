@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="style/portfolio.css">
 </head>
 <body class="open-sans-normal">
-	<header class="header secondary-bg">
+	<header class="header secondary-bg hide">
 		<nav>
 			<h1 class="nav-title">Ma<span class="text-primary">r</span>y</h1>
 			<ul>
@@ -111,7 +111,7 @@
 			<h3 class="section-title text-center">A Summary of My resume</h3>
 
 			<div class="resume-container">
-				<div class="resume-column">
+				<div class="resume-column left-col-section">
 					<h3 class="resume-column-title">My Education</h3>
 					<div class="experience">
 						<h4 class="experience-title">Master in Computer Engineering</h4>
@@ -137,7 +137,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="resume-column">
+				<div class="resume-column right-col-section">
 					<h3 class="resume-column-title">My Experience</h3>
 					<div class="experience">
 						<h4 class="experience-title">Sr. Font End Developer</h4>
@@ -174,7 +174,7 @@
 	</main>
 
 	<footer class="secondary-bg">
-		<div class="footer-culumn">
+		<div class="footer-culumn footer-left-col">
 			<h3>Lets Connect</h3>
 			<p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET,
 				Monday through Friday. </p>
@@ -187,15 +187,16 @@
 		</div>
 
 
+
 		<div class="footer-culumn">
 			<h3>Let's Message Me</h3>
 
-			<form action="">
+			<form class="msg-form" action="">
 				<input type="text" name="name" id="name" placeholder="Your Name">
 				<input type="text" name="email" id="email" placeholder="Your Email">
 				<textarea name="msg" id="msg" cols="50" rows="20" placeholder="Message"></textarea>
 
-				<input class="btn-primary" type="submit" value="Submit">
+				<input class="btn-primary btn-msg-submit" type="submit" value="Submit">
 
 			</form>
 
