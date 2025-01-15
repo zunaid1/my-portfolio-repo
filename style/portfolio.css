@@ -260,7 +260,9 @@ footer textarea {
 }
 
 @media screen and (max-width: 576px) {
-
+	nav,
+		nav>ul,
+		.banner,
 	.about-items,
 	.skills-container,
 	.resume-container,
@@ -268,6 +270,9 @@ footer textarea {
 		flex-direction: column;
 	}
 
+				nav>ul {
+					gap: 20px;
+				}
 
 	footer input[type="text"],
 	footer input[type="email"],
@@ -278,7 +283,18 @@ footer textarea {
 
 	.about-items {}
 
-
+																																																																																																																																.banner {
+																																																																																																																																	margin: 20px;
+																																																																																																																																}
+																																																																
+																																																																																																																																.header {
+																																																																																																																																	background-image: none;
+																																																																																																																																}
+																																																																
+																																																																																																																																.banner-profile-pic {
+																																																																																																																																	width: 100%;
+																																																																																																																																}
+						
 }
 
 /* Responsive code END  */
